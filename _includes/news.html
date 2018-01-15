@@ -1,0 +1,58 @@
+<div class="divider"></div>
+<div class="section">
+  <a class="anchor" name="news"></a>
+  <h2>News and Social</h2>
+  <div class="row">
+    <div class="col l8 s12">
+      <ul class="collapsible" data-collapsible="accordion">
+        {% for post in site.posts %}
+          <li>
+            <div class="collapsible-header hoverable">
+              <p>
+                <i class="mdi {{ post.icon }} large"></i>
+                {{ post.title }} ({{ post.date | date: '%B %d, %Y' }})
+              </p>
+            </div>
+            <div class="collapsible-body">
+              <div class="flow-text">
+                {{ post.excerpt }}
+              </div>
+              <div class='center-align'>
+                <a class="waves-effect waves-light btn" href="{{ post.url }}">
+                  Read more
+                </a>
+              </div>
+              <br>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col l4 s12">
+      <div class="card">
+        <a class="twitter-timeline" href="https://twitter.com/OlefineEu" data-widget-id="1234">Tweets by @OlefineEu</a>
+        <script>
+        ! function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+        p = /^http:/.test(d.location) ? 'http' : 'https';
+        if (!d.getElementById(id)) {
+        js = d.createElement(s);
+        js.id = id;
+        js.src = p + "://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+        }
+        }(document, "script", "twitter-wjs");
+        </script>
+      </div>
+      <!-- <div class="card">
+            <div class="card-content">
+              <span class="card-title">Newsletter</span>
+              <p>Join <a href="https://tinyletter.com/dd-decaf">Messages from DD-DeCaF</a> to receive updates (quarterly) on new releases! </p>
+            </div>
+            <div class="card-action center-align">
+              <a class="btn waves-effect waves-light lighten-1" href="https://tinyletter.com/dd-decaf"><i class="material-icons right">email</i>Subscribe</a>
+            </div>
+      </div> -->
+    </div>
+  </div>
+</div>

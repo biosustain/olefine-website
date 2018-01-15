@@ -1,0 +1,89 @@
+@import "./components/color";
+$primary-color: color("amber", "darken-2");
+$secondary-color: color("blue-grey", "darken-2");
+
+@import "materialize";
+
+@media (max-width: 600px) {
+
+  .brand-logo {
+    width: 70%;
+  }
+}
+
+p {
+  line-height: 2rem;
+}
+
+.navwrapper {
+  color: white
+}
+
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+.wrapper         {width:100%;height:100%;margin:0 auto;background:#CCC}
+.h_iframe        {position:relative;}
+.h_iframe .ratio {display:block;width:100%;height:auto;}
+.h_iframe {
+  height: 285px;
+}
+.h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -60px;
+    visibility: hidden;
+}
+
+img.responsive-img,
+video.responsive-video {
+  width: 100%;
+  height: auto;
+}
+
+.collapsible-header {
+  line-height: 1.5rem;
+  padding: 1rem;
+}
+
+.tool-img {
+    @extend img.responsive-img;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}

@@ -1,0 +1,381 @@
+<div class="divider"></div>
+<div class="section">
+  <a class="anchor" name="consortium"></a>
+  <h3>Consortium</h3>
+
+  <!-- <div class="parallax-container valign-wrapper">
+    <div class="section ">
+      <div class="container">
+        <div class="row center">
+          <h1 class="left">Consortium</h1>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="/images/banner2.png" alt="Unsplashed background img 3"></div>
+  </div> -->
+
+  <div class="row">
+
+    <div class="col s12 m6 l6">
+
+      <h4>Scientific partners</h4>
+
+      <!-- Modal Trigger -->
+      <a class="waves-effect waves-light modal-trigger" href="#modal1" style="color: black;max-width:70%">
+        <div class="card-panel hoverable">
+
+          <div class="card-content">
+
+            <img class="responsive-img" src="/images/DTU_logo_text.png" alt="">
+          </div>
+        </div>
+      </a>
+      <!-- Modal Structure -->
+      <div id="modal1" class="modal">
+        <div class="modal-content">
+          <h4>Technical University of Denmark</h4>
+          <p>The sequencing, informatics, and modeling (SIM) group led by Drs. Markus Herrgard and Nikolaus Sonnenschein at the Novo Nordisk Foundation Center for Biosustainability at DTU focuses on developing and applying tools for microbial cell factory
+            design. SIM group members have developed widely- used modeling platforms such as the COBRA (<a href="https://opencobra.github.io/" target="_blank">opencobra.github.io/</a>) and MASS (<a href="https://opencobra.github.io/MASS-Toolbox/" target="_blank">opencobra.github.io/MASS-Toolbox/</a>) toolboxes. Additionally, Dr. Herrgard has extensive experience in developing web-based
+            software for genomic and metagenomic data mining and synthetic biology design from a leading synthetic biology company (Synthetic Genomics, Inc.).</p>
+          <h5>Personnel involved:</h5>
+          <table>
+           {% for person in site.personnel %}
+              {% if person.partner == 'Technical University of Denmark' %}
+                <tr>
+                  <td>
+                    <img class="picture" src="{{ person.image }}">
+                  </td>
+                  <td>
+                    <p align="justify">{{ person.content }}</p>
+                </td>
+              {% endif %}
+            {% endfor %}
+          </table>
+
+          <div class='center-align'>
+            <a class="waves-effect waves-light btn" href="http://www.biosustain.dtu.dk/english" target="_blank">Partner website</a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <!-- Modal Trigger -->
+      <a class="waves-effect waves-light modal-trigger" href="#modal_manchester">
+        <div class="card-panel hoverable">
+
+          <div class="card-content">
+            <img class="responsive-img" src="/images/logo-university-of-manchester.png" alt="" style="width: 170%">
+          </div>
+        </div>
+      </a>      <!-- Modal Structure -->
+      <div id="modal_manchester" class="modal">
+        <div class="modal-content">
+          <h4>The University of Manchester</h4>
+          <p>
+            The University of Manchester (UoM) was formed in 2004 via the effective merger of the Victoria University of Manchester and UMIST. It is the largest campus University in the UK, with some 45,000 students. The Manchester Institute of Biotechnology (MIB) (www.mib.ac.uk), where the research will take place, is a purpose-built (2006) €60M building and intellectual grouping formed to pursue multi- and interdisciplinary research in biotechnology. It houses many very well funded research centres including the Manchester Synthetic Biology Centre for Fine and Speciality Chemicals (http://synbiochem.co.uk/), the Manchester Centre for Integrative Systems Biology (www.mcisb.org/), and the Centre of Excellence in Biocatalysis, Biotransformations and Biocatalytic Manufacture (http://www.coebio3.manchester.ac.uk/). Industrial biotechnology http://www.manchester.ac.uk/research/beacons/industrial-biotechnology/ is one of the core foci (‘beacons’) at the University of Manchester. As the historical Centre of much of the UK Chemicals and fermentation industry, the NorthWest of the UK more generally is focusing on industrial biotechnology; UoM lies at the heart of this, with a campus development worth some €1Bn http://www.manchester.ac.uk/discover/vision/campus-masterplan/. 
+          </p>
+          <h5>Personnel involved:</h5>
+          <table>
+            {% for person in site.personnel %}
+              {% if person.partner == 'University of Manchester' %}
+                <tr>
+                  <td>
+                    <img class="picture" src="{{ person.image }}">
+                  </td>
+                  <td>
+                    <p align="justify">{{ person.content }}</p>
+                </td>
+              {% endif %}
+            {% endfor %}
+          </table>
+          <div class='center-align'>
+            <a class="waves-effect waves-light btn" href="http://www.embl.de/" target="_blank">Partner website</a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <!-- Partner start -->
+      <!-- Modal Trigger -->
+      <a class="waves-effect waves-light modal-trigger" href="#modal_lund" style="color: black;max-width:70%">
+        <div class="card-panel hoverable">
+
+          <div class="card-content">
+            <img class="responsive-img" src="/images/lund.png" alt="" style="width: 80%">
+          </div>
+        </div>
+      </a>
+      <!-- Modal Structure -->
+      <div id="modal_lund" class="modal">
+        <div class="modal-content">
+          <h4>Biophero</h4>
+          <p>
+            Prof. Löfstedt group at Lund University has international reputation and a large network of collaborators in the field of chemical ecology and pheromone biosynthesis. They are world-leading experts on characterization, expression and engineering of enzymes involved in biosynthesis of pheromones.
+          </p>
+          
+          <h5>Personnel involved:</h5>
+          <table>
+            {% for person in site.personnel %}
+              {% if person.partner == 'Biophero' %}
+                <tr>
+                  <td>
+                    <img class="picture" src="{{ person.image }}">
+                  </td>
+                  <td>
+                    <p align="justify">{{ person.content }}</p>
+                </td>
+              {% endif %}
+            {% endfor %}
+          </table>
+          
+          <div class='center-align'>
+            <a class="waves-effect waves-light btn" href="http://www.silicolife.com/" target="_blank">Partner website</a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+      <!-- Partner end -->
+
+    </div>
+
+    <div class="col s12 m6 l6">
+
+      <h4>Industrial partners</h4>
+
+      <!-- Partner start -->
+      <!-- Modal Trigger -->
+      <a class="waves-effect waves-light modal-trigger" href="#modal_biophero" style="color: black;max-width:70%">
+        <div class="card-panel hoverable">
+
+          <div class="card-content">
+            <img class="responsive-img" src="/images/Biophero.jpg" alt="" style="width: 80%">
+          </div>
+        </div>
+      </a>
+      <!-- Modal Structure -->
+      <div id="modal_biophero" class="modal">
+        <div class="modal-content">
+          <h4>Biophero</h4>
+          <p>
+            BIOPHERO ApS is a research-based company dedicated to supplying low-cost bio-based pheromones for the Integrative Pest Management market. The company was founded in 2016 and is based on technology developed at Technical University of Denmark and Lund University. BIOPHERO will receive an exclusive license from DTU on the IP package covering the technology for bio-based insect pheromone manufacturing (once the patents are granted). The IP package currently consists of 3 patent applications, with possibility to expand the package with future relevant IP, and of all the relevant materials, such as production strains, enzyme-coding genes, etc.
+          </p>
+          <p>
+            BIOPHERO’s mission is to make pheromones an attractive and price-competitive pest management solution for agriculture and forestry. Our business model relies on building strong strategic partnerships with IPM manufactures for joint development, manufacture and marketing of products based on bio-pheromones with revenue sharing for the entire value chain. BIOPHERO has negotiated the first contract with ISCA for fast market penetration and revenue sharing on row crop market.
+          </p>
+          <p>
+            BIOPHERO will manufacture bio-based pheromones via fermentation of genetically engineering cells, first via contract manufacturing and later via investing into own production facility. 
+          </p>
+
+          <h5>Personnel involved:</h5>
+          <table>
+            {% for person in site.personnel %}
+              {% if person.partner == 'Biophero' %}
+                <tr>
+                  <td>
+                    <img class="picture" src="{{ person.image }}">
+                  </td>
+                  <td>
+                    <p align="justify">{{ person.content }}</p>
+                </td>
+              {% endif %}
+            {% endfor %}
+          </table>
+          
+          <div class='center-align'>
+            <a class="waves-effect waves-light btn" href="http://www.silicolife.com/" target="_blank">Partner website</a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+      <!-- Partner end -->
+
+      <!-- Partner start -->
+      <!-- Modal Trigger -->
+      <a class="waves-effect waves-light modal-trigger" href="#modal_biotrend" style="color: black;max-width:70%">
+        <div class="card-panel hoverable">
+
+          <div class="card-content">
+            <img class="responsive-img" src="/images/Biotrend.png" alt="">
+          </div>
+        </div>
+      </a>
+      <!-- Modal Structure -->
+      <div id="modal_biotrend" class="modal">
+        <div class="modal-content">
+          <h4>Biotrend</h4>
+          <p>Biotrend is a research-based company focused on the development, optimization, de-risking and scale-up of bioprocesses for industrial biotechnology. Clients range from start-up companies without bioprocessing know-how and infrastructure to large chemical, agri-food or pulp and paper companies exploring the opportunities of industrial biotechnology and of the use of renewable raw materials, including industrial by-products, to create value. We run a state-of-the-art lab for bioprocess development which includes a battery of 2L fully controlled bioreactors and a pilot plant with 10L, 50L and 250L fully controlled bioreactors and downstream equipment (tangential flow filtration, centrifugation, homogenization, solvent extraction, spray drying, freeze drying, preparative chromatography). Through our network of partners, we have access to large scale fermentation facilities, up to 200 000L fermentation capacity.
+          </p>
+
+          <h5>Personnel involved:</h5>
+          <table>
+            {% for person in site.personnel %}
+              {% if person.partner == 'Biotrend' %}
+                <tr>
+                  <td>
+                    <img class="picture" src="{{ person.image }}">
+                  </td>
+                  <td>
+                    <p align="justify">{{ person.content }}</p>
+                </td>
+              {% endif %}
+            {% endfor %}
+          </table>
+          
+          <div class='center-align'>
+            <a class="waves-effect waves-light btn" href="http://www.silicolife.com/" target="_blank">Partner website</a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+      <!-- Partner end -->
+
+      <!-- Partner start -->
+      <!-- Modal Trigger -->
+      <a class="waves-effect waves-light modal-trigger" href="#modal_demokritos" style="color: black;max-width:70%">
+        <div class="card-panel hoverable">
+
+          <div class="card-content">
+            <img class="responsive-img" src="/images/Demokritos.png" alt="">
+          </div>
+        </div>
+      </a>
+      <!-- Modal Structure -->
+      <div id="modal_demokritos" class="modal">
+        <div class="modal-content">
+          <h4>Demokritos</h4>
+          <p>The National Center for Scientific Research (NCSR) “Demokritos” is the largest multidisciplinary research center in Greece, conducting basic and applied research in the Natural Sciences. NCSR “Demokritos” is an autonomous legal entity under public law and is supervised by the General Secretariat for Research and Technology (GSRT), preserving its administrative and financial independence. Its activities are pursued in the context of 5 different Institutes. The Institutes of NCSR “Demokritos” perform high level scientific research, technological development and educational activities in the areas of Life Sciences, Biology and Biotechnology, New Materials, Microelectronics and Nanotechnology, Environment – Energy and Sustainable Development, Informatics and Telecommunications, Nuclear Physics and Particle Physics, Nuclear Technology and Radiation Protection, and Cultural Heritage. It employs approximately 1100 people, of whom more than half are supported under external research contracts from competitive programs. The Centre has large research facilities, many of them unique in Greece. Available at the Centre are also a Liaison Office and Technology Park for technology transfer-related activities.
+          Research at NCSR “Demokritos” is carried out at EU level through its participation in European research projects, networks of excellence and technology platforms. NCSR “Demokritos” success in peer reviewed R&D funded programmes represents one of the strongest endorsements of the Center’s R&D competence and reflects its world-class standing. At a national level, the expertise and infrastructure of NCSR “Demokritos” are unique in Greece, which makes its role also exceptional in developing novel technologies, in transferring technology and know-how to the industry and in developing human potential.
+
+          The Chemical Ecology & Natural Products Laboratory, in the Institute of Biosciences and Applications NCSR "Demokritos" has been working on development of biotechnological methods for pest control, for over 20 years. It has been involved in the field of pheromones and other semiochemicals affecting insect behaviour. Develops technology (pheromone dispensers, slow release formulations for mating disruption, natural chemicals with insecticidal properties) for their use as components in IPM programs. 
+          Main Research activities: i) Insect Chemical Ecology: isolation and identification of biologically active compounds, relating to insect chemical communication and plant – insect interactions (pheromones, volatile compounds of plant origin etc.) that may be used in integrated pest management programs, ii) Isolation and identification of secondary metabolites (mainly of plant origin) acting on insect physiology and/or behaviour (behaviour modifying agents - infochemicals). Laboratory and field evaluation of bioactivity of the isolated metabolites; study of their mode of action, iii) Development of specialized dispensers for chemical attractants/repellants for insects and technologies for their application in pest population control. Biodegradable materials endowed with controlled-release rate and UV protection properties, iv) Biochemistry of insect olfactory receptors with emphasis on the localization and isolation of protein receptors for semiochemicals, v) Microorganisms and Biotechnology: Isolation of naturally occurring microorganisms and their biologically active secondary metabolites (toxins) aiming to their incorporation in insect population management.
+          The lab has the required expertise and instrumentation needed for carrying out the proposed work. The research team has been participating in a number of E.U. projects for over 15 years. 
+          </p>
+
+          <h5>Personnel involved:</h5>
+          <table>
+            {% for person in site.personnel %}
+              {% if person.partner == 'Demokritos' %}
+                <tr>
+                  <td>
+                    <img class="picture" src="{{ person.image }}">
+                  </td>
+                  <td>
+                    <p align="justify">{{ person.content }}</p>
+                </td>
+              {% endif %}
+            {% endfor %}
+          </table>
+          
+          <div class='center-align'>
+            <a class="waves-effect waves-light btn" href="http://www.silicolife.com/" target="_blank">Partner website</a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+      <!-- Partner end -->
+
+      <!-- Partner start -->
+      <!-- Modal Trigger -->
+      <a class="waves-effect waves-light modal-trigger" href="#modal_nova" style="color: black;max-width:70%">
+        <div class="card-panel hoverable">
+
+          <div class="card-content">
+            <img class="responsive-img" src="/images/NOVA.png" alt="">
+          </div>
+        </div>
+      </a>
+      <!-- Modal Structure -->
+      <div id="modal_nova" class="modal">
+        <div class="modal-content">
+          <h4>NovAgrica</h4>
+          <p>NovAgrica is an innovative company actively involved in the field of “green” economy. It manufactures biological and chemical products to be used in integrated pest management programs for plant protection. It specializes in semiochemicals by developing, producing, testing and distributing insect pheromones (attractants) throughout the globe. Key markets include Northern Africa and the Middle East, sub Saharan Africa, Far East and Europe. 
+          The company is member of IBMA (International Biocontrol Manufacturers Association), a worldwide association of biocontrol industries producing microorganisms, macroorganisms, semiochemicals and natural pesticides for plant protection and public health. 
+          NovAgrica takes part in national and international tenders and aims at both private and public sectors offering effective products for many key pests infesting cash crops such as the tomato leaf miner (Tuta absoluta), the black banana weevil (Cosmopolites sordidus) and the mango fruit fly (Ceratitis cosyra) or those infesting plants in areas of high aesthetic or touristic value such as the red palm weevil (Rhynchophorus ferrugineus) and the pine processionary moth (Thaumetopoea pityocampa), to mention a few. 
+          </p>
+
+          <h5>Personnel involved:</h5>
+          <table>
+            {% for person in site.personnel %}
+              {% if person.partner == 'Demokritos' %}
+                <tr>
+                  <td>
+                    <img class="picture" src="{{ person.image }}">
+                  </td>
+                  <td>
+                    <p align="justify">{{ person.content }}</p>
+                </td>
+              {% endif %}
+            {% endfor %}
+          </table>
+          
+          <div class='center-align'>
+            <a class="waves-effect waves-light btn" href="http://www.silicolife.com/" target="_blank">Partner website</a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+      <!-- Partner end -->
+
+      <!-- Partner start -->
+      <!-- Modal Trigger -->
+      <a class="waves-effect waves-light modal-trigger" href="#modal_isca" style="color: black;max-width:70%">
+        <div class="card-panel hoverable">
+
+          <div class="card-content">
+            <img class="responsive-img" src="/images/ISCA.jpg" alt="">
+          </div>
+        </div>
+      </a>
+      <!-- Modal Structure -->
+      <div id="modal_isca" class="modal">
+        <div class="modal-content">
+          <h4>ISCA</h4>
+          <p>ISCA Technologies develops and markets biological pest control products used for monitoring and control of insect populations. ISCA Technologies has been able to grow organically, without incurring long-term debt, and successfully commercialize its products with the valuable assistance of R&D funding programs such as the USDA SBIR program. As a result of its strong revenue growth, ISCA has been able to fund the commercialization of its new products using the recurring and growing profits from its successfully commercialized products. Incorporated in 1996, ISCA Technologies, Inc. is a successful California C Corporation that provides novel pest management tools and solutions for agricultural and urban applications. 
+          ISCA has a strong record of developing and commercializing insect pest management tools and solutions. ISCA has developed a product portfolio of more than 300 species-specific lures and traps for the urban, agricultural, and forestry markets, as well as 15 EPA-registered mating disruption and attract & kill products based on its proprietary, non-toxic, SPLAT (Specialized Lure and Pheromone Application Technology) controlled-release matrix. Extensive research on SPLAT using a variety of lures demonstrates that this matrix emits semiochemicals at effective pest suppression levels for time periods ranging from 2 to <60 weeks. With its amenability to a wide range of viscosities and application methods, SPLAT increases productivity through its adaptability to the user’s specific needs. The amorphous and viscous quality of this product allows for an easy transition from small-scale manual treatments to large-scale mechanical applications. ISCA Technologies has expertise in insect pheromone synthesis and process expansion, which has led to the company’s extensive experience in using a variety of synthetic organic reaction techniques and producing insect sex pheromones and other semiochemicals to be used in research and development projects for USDA, U.S. Army, academia and commercial enterprises. 
+          Unique amongst its competitors, ISCA possesses state-of-the-art semiochemical synthesis and analysis capabilities. It is the world’s primary source for many difficult to synthesize semiochemicals. ISCA newly acquired synthetic chemistry capabilities allow the industrialized manufacturing of semiochemicals in large scale at extremely competitive rates. For example, in the USA, since 2014 ISCA provides all the sex pheromone (disparlure) used for the largest mating disruption program in the world, the Slow the Spread of Gypsy Moth by the US Forest Services. ISCA sells the widest range of semiochemicals and semiochemical-based products in the U.S., with many of these products playing a critical role in the detection, monitoring and management and of economically-critical insect pests.
+
+          </p>
+
+          <h5>Personnel involved:</h5>
+          <table>
+            {% for person in site.personnel %}
+              {% if person.partner == 'ISCA' %}
+                <tr>
+                  <td>
+                    <img class="picture" src="{{ person.image }}">
+                  </td>
+                  <td>
+                    <p align="justify">{{ person.content }}</p>
+                </td>
+              {% endif %}
+            {% endfor %}
+          </table>
+          
+          <div class='center-align'>
+            <a class="waves-effect waves-light btn" href="http://www.silicolife.com/" target="_blank">Partner website</a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+      <!-- Partner end -->
+
+    </div>
+  </div>
+
+</div>

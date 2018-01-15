@@ -1,0 +1,30 @@
+<div class="divider"></div>
+<div class="section">
+    <a class="anchor" name="publications"></a>
+    <h2>Publications</h2>
+
+    <ul class="collapsible" data-collapsible="accordion">
+      {% for publication in site.publications %}
+        <li>
+          <div class="collapsible-header hoverable">
+            <i class="mdi {{ publication.icon }} large"></i>
+            {{ publication.authors}}, <span style="font-style: italic">{{ publication.title }}</span>, {{ publication.journal }}{% if publication.volume %}, {{ publication.volume }}{% endif %}{% if publication.number %}({{ publication.number}}) {% endif %}{% if publication.pages %}, {{publication.pages}}{% endif %}{% if publication.doi %}, <a href="http://doi.org/{{ publication.doi }}">{{ publication.doi }}</a>{% endif %}
+            <div style="float: right">{{ publication.date | date: '%B %d, %Y' }}
+            </div>
+          </div>
+          <div class="collapsible-body">
+            <div class="flow-text">
+              {{ publication.excerpt }}
+            </div>
+            <div class='center-align'>
+              <a class="waves-effect waves-light btn" href="http://dx.doi.org/{{ publication.doi }}" target="_blank">
+                Read more
+              </a>
+            </div>
+            <br>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+
+</div>

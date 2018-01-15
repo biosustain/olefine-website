@@ -1,0 +1,42 @@
+<div class="divider"></div>
+<div class="section">
+  <a class="anchor" name="jobs"></a>
+  <h2>Jobs</h2>
+
+<ul class="collapsible" data-collapsible="accordion">
+  {% for job in site.jobs %}
+
+  {% capture job_epoch %}{{ job.deadline | date: '%s'}}{% endcapture %}
+  {% capture site_epoch %}{{ site.time | date: '%s'}}{% endcapture %}
+
+  {% if job_epoch > site_epoch %}
+  <li>
+    <div class="collapsible-header hoverable">
+
+      <div class="row valign-wrapper">
+          <div class="col s2">
+              <img class="responsive-img valign" src="{{ job.logo }}" alt="{{ job.employer }}" style="margin-top: 10px; width: 50%"/>
+          </div>
+          <div class="col s10">
+              <p class="valign">
+                {{ job.title }} (deadline: {{ job.deadline | date: '%B %d, %Y' }})
+              </p>
+          </div>
+    </div>
+    </div>
+    <div class="collapsible-body">
+      <div class="flow-text">
+        {{ job.excerpt }}
+      </div>
+      <div class='center-align'>
+        <a class="waves-effect waves-light btn" href="{{ job.job-url }}">
+      Apply
+    </a>
+      </div>
+      <br>
+    </div>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+</div>
