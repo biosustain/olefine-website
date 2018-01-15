@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CEO
-image: /images/Douglas-Kell.png
+image: /images/douglas-kell.png
 partner: University of Manchester
 published: True	
 ---
