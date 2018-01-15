@@ -10089,6 +10089,9 @@ p {
 .navwrapper {
   color: white; }
 
+.card-panel {
+  max-width: 70%; }
+
 .parallax-container {
   min-height: 380px;
   line-height: 0;
