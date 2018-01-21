@@ -2,9 +2,9 @@
 layout: post
 title: Kick-off meeting
 icon: mdi-bell
-published: false
+published: true
 ---
 
 ...
 
-<img class="responsive-img" src="/images/PUT-IMAGE-HERE" alt="" style="max-width: 70%">
+<img class="responsive-img" src="/images/OLEFINE_kick-off meeting.jpg" alt="" style="max-width: 70%">
