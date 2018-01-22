@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Technical Manager
-image: /images/irina.jpg
+image: /images/Irina.jpg
 partner: Biophero
 published: True	
 ---
