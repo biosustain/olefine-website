@@ -9,4 +9,4 @@ deadline: 2017-02-28
 published: true	
 ---
 
-Fermentation engineer with scale-up experience
+Fermentation scientist with scale-up experience
