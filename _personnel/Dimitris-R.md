@@ -2,7 +2,7 @@
 layout: post
 title: Exploitation manager
 image: /images/Dimitris-R-Novagrica.png 
-partner: Novagrica
+partner: NovAgrica
 published: True	
 ---
 
