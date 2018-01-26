@@ -347,10 +347,14 @@
               {% if person.partner == 'NovAgrica' %}
                 <tr>
                   <td>
-                    <img class="picture" src="{{ person.image }}" alt="">
-                </div>
-        </div>
-      </a>
+                    <img class="picture" src="{{ person.image }}">
+                  </td>
+                  <td>
+                    <p align="justify">{{ person.content }}</p>
+                </td>
+              {% endif %}
+            {% endfor %}
+          </table>
           
           <div class='center-align'>
             <a class="waves-effect waves-light btn" href="http://www.novagrica.com/" target="_blank">Partner website</a>
