@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Presidet and CEO of ISCA Technologies
+title: Global Business Developer & Experienced Executive in Agriculture & Food Technologies
 image: /images/Jean-Pierre-Princen.jpg 
 partner: ISCA
 published: True	
