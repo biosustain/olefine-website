@@ -2,6 +2,7 @@
 layout: post
 title: Presidet and CEO of ISCA Technologies
 image: /images/ISCA-Agenor-Marfa-Neto.jpg 
+image: /images/Jean-Pierre-Princen.jpg
 partner: ISCA
 published: True	
 ---
