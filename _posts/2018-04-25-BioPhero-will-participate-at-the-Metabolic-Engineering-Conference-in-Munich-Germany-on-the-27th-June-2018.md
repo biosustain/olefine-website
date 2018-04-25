@@ -5,4 +5,4 @@ icon: mdi-bell
 published: true
 ---
 
-BioPhero will present the results on biological production of pheromones at Metabolic Engineering Conference in Munich, Germany on the 27th June 2018 
+BioPhero will present the results on biological production of pheromones at Metabolic Engineering Conference in Munich, Germany on the 27th June 2018 https://www.aiche.org/sbe/conferences/metabolic-engineering-conference/2018 
