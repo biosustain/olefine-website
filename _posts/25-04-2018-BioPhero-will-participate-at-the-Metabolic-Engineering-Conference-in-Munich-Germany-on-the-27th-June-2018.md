@@ -1,6 +1,7 @@
 ---
 layout: post
 title: BioPhero will participate at the Metabolic Engineering Conference in Munich in June 2018 
+icon: mdi-bell
 published: true
 ---
 
