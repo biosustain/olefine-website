@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: EasyCloneYALI: CRISPR/Cas9‐Based Synthetic Toolbox for Engineering of the Yeast Yarrowia lipolytica
-authors: Carina Holkenbrink, Marie I. Dam, Kanchana R. Kildegaard, Johannes Beder, Jonathan Dahlin, David Doménech Belda, Irina Borodina
+authors: 
 journal: Biotechnology
 volume: 
 number: 
