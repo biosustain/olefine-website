@@ -2,7 +2,7 @@
 layout: post
 title: BioPhero ApS has announced the closing of a seed investment of €3 million by Novo Seeds, Syngenta Ventures and Syddansk Innovation
 icon: mdi-bell
-published: false
+published: true
 ---
 
 The full press release is available at ->
