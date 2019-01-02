@@ -7,4 +7,4 @@ published: true
 
 OLEFINE newsletter "Biological Pheromones in fight against pests" motivating the core principles of using pheromones and their benefits versus insecticides.
 
-Check it out ![here](/pdfs/2018-12-13-OLEFINE-Newsletter.pdf)
+Check out [the PDF here.](/assets/2018-12-13-OLEFINE-Newsletter.pdf)
