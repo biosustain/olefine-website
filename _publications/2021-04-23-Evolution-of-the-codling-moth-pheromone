@@ -1,0 +1,20 @@
+---
+layout: publication
+title: "Evolution of the codling moth pheromone via an ancient gene duplication"
+authors: "Lassance J-M, Ding B-J, Löfstedt C."
+journal: "BMC Biology"
+volume: 19
+number: 
+pages: 83
+year: "2021"
+doi: "10.1186/s12915-021-01001-8"
+published: true
+---
+Background
+Defining the origin of genetic novelty is central to our understanding of the evolution of novel traits. Diversification among fatty acid desaturase (FAD) genes has played a fundamental role in the introduction of structural variation in fatty acyl derivatives. Because of its central role in generating diversity in insect semiochemicals, the FAD gene family has become a model to study how gene family expansions can contribute to the evolution of lineage-specific innovations. Here we used the codling moth (Cydia pomonella) as a study system to decipher the proximate mechanism underlying the production of the ∆8∆10 signature structure of olethreutine moths. Biosynthesis of the codling moth sex pheromone, (E8,E10)-dodecadienol (codlemone), involves two consecutive desaturation steps, the first of which is unusual in that it generates an E9 unsaturation. The second step is also atypical: it generates a conjugated diene system from the E9 monoene C12 intermediate via 1,4-desaturation.
+
+Results
+Here we describe the characterization of the FAD gene acting in codlemone biosynthesis. We identify 27 FAD genes corresponding to the various functional classes identified in insects and Lepidoptera. These genes are distributed across the C. pomonella genome in tandem arrays or isolated genes, indicating that the FAD repertoire consists of both ancient and recent duplications and expansions. Using transcriptomics, we show large divergence in expression domains: some genes appear ubiquitously expressed across tissue and developmental stages; others appear more restricted in their expression pattern. Functional assays using heterologous expression systems reveal that one gene, Cpo_CPRQ, which is prominently and exclusively expressed in the female pheromone gland, encodes an FAD that possesses both E9 and ∆8∆10 desaturation activities. Phylogenetically, Cpo_CPRQ clusters within the Lepidoptera-specific ∆10/∆11 clade of FADs, a classic reservoir of unusual desaturase activities in moths.
+
+Conclusions
+Our integrative approach shows that the evolution of the signature pheromone structure of olethreutine moths relied on a gene belonging to an ancient gene expansion. Members of other expanded FAD subfamilies do not appear to play a role in chemical communication. This advises for caution when postulating the consequences of lineage-specific expansions based on genomics alone.
