@@ -1,3 +1,4 @@
+---
 layout: publication
 title: "Tailored biosynthesis of gibberellin plant hormones in yeast"
 authors: "Kanchana R. Kildegaard, Jonathan A. Arnesen, Belén Adiego-Pérez, Daniela Rago, Mette Kristensen, Andreas K. Klitgaard, Esben H. Hansen, Jørgen Hansen, Irina Borodina"
