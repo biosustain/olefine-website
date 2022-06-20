@@ -1,3 +1,4 @@
+---
 layout: publication
 title: "Engineering of Yarrowia lipolytica for the production of plant triterpenoids: asiatic, madecassic, and arjunolic acids."
 authors: "Jonathan Asmund Arnesen, Arian Belmonte Del Ama, Sidharth Jayachandran, Jonathan Dahlin, Daniela Rago, Aaron John Christian Andersen, Irina Borodina"
